@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <linearGradient id="pg1" x1="0" y1="0" x2="600" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="pg2" x1="600" y1="0" x2="0" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="pglow" cx="300" cy="200" r="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="300" cy="200" r="200" fill="url(#pglow)"/>
+
+  <!-- Isometric cube wireframe -->
+  <g stroke="url(#pg1)" stroke-width="1" opacity="0.6">
+    <!-- front face -->
+    <path d="M200,250 L300,190 L400,250 L300,310 Z"/>
+    <!-- top face -->
+    <path d="M200,250 L200,170 L300,110 L300,190 Z"/>
+    <!-- right face -->
+    <path d="M300,190 L300,110 L400,170 L400,250 Z"/>
+  </g>
+
+  <!-- Inner smaller cube -->
+  <g stroke="url(#pg2)" stroke-width="0.6" opacity="0.4">
+    <path d="M250,250 L300,220 L350,250 L300,280 Z"/>
+    <path d="M250,250 L250,210 L300,180 L300,220 Z"/>
+    <path d="M300,220 L300,180 L350,210 L350,250 Z"/>
+  </g>
+
+  <!-- Orbiting ring -->
+  <ellipse cx="300" cy="200" rx="180" ry="60" stroke="#3b82f6" stroke-width="0.5" opacity="0.2" transform="rotate(-20 300 200)"/>
+  <ellipse cx="300" cy="200" rx="160" ry="50" stroke="#8b5cf6" stroke-width="0.4" opacity="0.15" transform="rotate(15 300 200)"/>
+
+  <!-- Vertices glow -->
+  <circle cx="300" cy="110" r="4" fill="#3b82f6" opacity="0.8"/>
+  <circle cx="200" cy="170" r="3" fill="#8b5cf6" opacity="0.6"/>
+  <circle cx="400" cy="170" r="3" fill="#06b6d4" opacity="0.6"/>
+  <circle cx="200" cy="250" r="3" fill="#8b5cf6" opacity="0.5"/>
+  <circle cx="400" cy="250" r="3" fill="#06b6d4" opacity="0.5"/>
+  <circle cx="300" cy="310" r="3" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="300" cy="190" r="5" fill="#3b82f6" opacity="0.9"/>
+
+  <!-- Floating data points -->
+  <circle cx="140" cy="140" r="1.5" fill="#60a5fa" opacity="0.5"/>
+  <circle cx="460" cy="140" r="1.5" fill="#67e8f9" opacity="0.5"/>
+  <circle cx="140" cy="300" r="1" fill="#a78bfa" opacity="0.4"/>
+  <circle cx="460" cy="300" r="1" fill="#67e8f9" opacity="0.4"/>
+  <circle cx="500" cy="200" r="1.2" fill="#60a5fa" opacity="0.3"/>
+  <circle cx="100" cy="200" r="1.2" fill="#a78bfa" opacity="0.3"/>
+
+  <!-- Connecting fine lines to orbiting points -->
+  <line x1="300" y1="190" x2="140" y2="140" stroke="#3b82f6" stroke-width="0.3" opacity="0.2"/>
+  <line x1="300" y1="190" x2="460" y2="140" stroke="#06b6d4" stroke-width="0.3" opacity="0.2"/>
+  <line x1="300" y1="190" x2="500" y2="200" stroke="#3b82f6" stroke-width="0.3" opacity="0.15"/>
+  <line x1="300" y1="190" x2="100" y2="200" stroke="#8b5cf6" stroke-width="0.3" opacity="0.15"/>
+</svg>

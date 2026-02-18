@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <defs>
+    <linearGradient id="cg1" x1="0" y1="0" x2="600" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="cglow" cx="300" cy="200" r="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="300" cy="200" r="200" fill="url(#cglow)"/>
+
+  <!-- Concentric circles -->
+  <circle cx="300" cy="200" r="40" stroke="#3b82f6" stroke-width="1" opacity="0.5"/>
+  <circle cx="300" cy="200" r="80" stroke="#3b82f6" stroke-width="0.7" opacity="0.3"/>
+  <circle cx="300" cy="200" r="120" stroke="#8b5cf6" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="300" cy="200" r="160" stroke="#06b6d4" stroke-width="0.4" opacity="0.12"/>
+
+  <!-- Cross axes -->
+  <line x1="140" y1="200" x2="460" y2="200" stroke="#3b82f6" stroke-width="0.3" opacity="0.2"/>
+  <line x1="300" y1="40" x2="300" y2="360" stroke="#3b82f6" stroke-width="0.3" opacity="0.2"/>
+
+  <!-- Diagonal axes -->
+  <line x1="187" y1="87" x2="413" y2="313" stroke="#8b5cf6" stroke-width="0.2" opacity="0.12"/>
+  <line x1="413" y1="87" x2="187" y2="313" stroke="#06b6d4" stroke-width="0.2" opacity="0.12"/>
+
+  <!-- Data points on circle 1 (r=40) -->
+  <circle cx="340" cy="200" r="3" fill="#3b82f6" opacity="0.8"/>
+  <circle cx="300" cy="160" r="2.5" fill="#3b82f6" opacity="0.7"/>
+  <circle cx="272" cy="228" r="2" fill="#3b82f6" opacity="0.6"/>
+
+  <!-- Data points on circle 2 (r=80) -->
+  <circle cx="380" cy="200" r="3.5" fill="#8b5cf6" opacity="0.7"/>
+  <circle cx="300" cy="120" r="3" fill="#3b82f6" opacity="0.6"/>
+  <circle cx="243" cy="269" r="2.5" fill="#8b5cf6" opacity="0.5"/>
+  <circle cx="357" cy="131" r="2" fill="#06b6d4" opacity="0.5"/>
+
+  <!-- Data points on circle 3 (r=120) -->
+  <circle cx="420" cy="200" r="4" fill="#06b6d4" opacity="0.6"/>
+  <circle cx="300" cy="80" r="3" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="215" cy="140" r="2.5" fill="#8b5cf6" opacity="0.4"/>
+  <circle cx="385" cy="260" r="2.5" fill="#06b6d4" opacity="0.4"/>
+
+  <!-- Connection lines from center -->
+  <line x1="300" y1="200" x2="340" y2="200" stroke="#3b82f6" stroke-width="0.5" opacity="0.4"/>
+  <line x1="300" y1="200" x2="380" y2="200" stroke="#8b5cf6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="300" y1="200" x2="420" y2="200" stroke="#06b6d4" stroke-width="0.3" opacity="0.2"/>
+  <line x1="300" y1="200" x2="300" y2="120" stroke="#3b82f6" stroke-width="0.4" opacity="0.3"/>
+  <line x1="300" y1="200" x2="300" y2="80" stroke="#3b82f6" stroke-width="0.3" opacity="0.2"/>
+
+  <!-- Center core -->
+  <circle cx="300" cy="200" r="6" fill="#3b82f6" opacity="0.9"/>
+  <circle cx="300" cy="200" r="10" stroke="#3b82f6" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Arc segments (decorative) -->
+  <path d="M380,200 A80,80 0 0,1 356,269" stroke="url(#cg1)" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M300,80 A120,120 0 0,1 420,200" stroke="url(#cg1)" stroke-width="1.5" fill="none" opacity="0.25"/>
+</svg>
