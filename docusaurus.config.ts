@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.svg',
 
   url: 'https://tmsoftwares.eu',
-  baseUrl: '/',
+  baseUrl: '/tm-softwares/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
