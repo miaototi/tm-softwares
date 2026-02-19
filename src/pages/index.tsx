@@ -136,7 +136,7 @@ function Hero() {
                 <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </Link>
-            <Link className={styles.btnGhost} href="https://github.com/TobiasTesauri">
+            <Link className={styles.btnGhost} href="https://github.com/miaototi">
               GitHub<span className={styles.arrow}>&#8594;</span>
             </Link>
           </div>
@@ -476,8 +476,9 @@ function Showcase() {
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
               <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-          </Link>
-          <Link className={styles.btnOutline} href="https://github.com/TobiasTesauri/Aicraft">
+          </Link>          <Link className={styles.btnOutline} href="https://miaototi.github.io/Aicraft/">
+            Full Documentation
+          </Link>          <Link className={styles.btnOutline} href="https://github.com/miaototi/Aicraft">
             View on GitHub
           </Link>
           <a className={styles.btnGhost} href="/Aicraft_Presentation.pptx" download>
@@ -893,7 +894,7 @@ function CTA() {
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </Link>
-              <Link className={styles.btnGhost} href="https://github.com/TobiasTesauri">
+              <Link className={styles.btnGhost} href="https://github.com/miaototi">
                 Follow on GitHub <span className={styles.arrow}>&#8594;</span>
               </Link>
             </div>

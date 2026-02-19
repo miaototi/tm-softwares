@@ -48,7 +48,12 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/TobiasTesauri',
+          href: 'https://miaototi.github.io/Aicraft/',
+          label: 'Aicraft Docs',
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/miaototi',
           label: 'GitHub',
           position: 'right',
         },
@@ -74,7 +79,8 @@ const config: Config = {
         {
           title: 'Links',
           items: [
-            {label: 'GitHub', href: 'https://github.com/TobiasTesauri'},
+            {label: 'GitHub', href: 'https://github.com/miaototi'},
+            {label: 'Aicraft Docs', href: 'https://miaototi.github.io/Aicraft/'},
           ],
         },
       ],

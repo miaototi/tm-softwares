@@ -73,6 +73,6 @@ int main() {
 
 ## Links
 
-- [Aicraft documentation](https://TobiasTesauri.github.io/Aicraft/)
-- [GitHub repository](https://github.com/TobiasTesauri/Aicraft)
-- [MIT License](https://github.com/TobiasTesauri/Aicraft/blob/main/LICENSE)
+- [Aicraft documentation](https://miaototi.github.io/Aicraft/)
+- [GitHub repository](https://github.com/miaototi/Aicraft)
+- [MIT License](https://github.com/miaototi/Aicraft/blob/main/LICENSE)
